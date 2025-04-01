@@ -205,6 +205,36 @@ address { font-style: normal; }
     }
 }
 
+/* css/tooplate-style.css */
+
+/* Ensure links have high contrast and are underlined */
+a {
+    color: #007bff; /* High contrast color */
+    text-decoration: underline; /* Underline links */
+}
+
+a:hover, a:focus {
+    color: #0056b3; /* Darker color on hover/focus for better visibility */
+    text-decoration: underline; /* Keep underline on hover/focus */
+}
+
+/* Ensure paragraph text has sufficient contrast */
+p.tm-mb-0 {
+    color: #333; /* Darker text color for better contrast */
+    margin-bottom: 0;
+}
+
+/* css/tooplate-style.css */
+
+/* Ensure images maintain their aspect ratio */
+img.img-fluid {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* or use 'contain' depending on your requirement */
+}
+
+
+
 .tm-p-50 { padding: 50px; }
 .tm-mb-0 { margin-bottom: 0; }
 .tm-mb-30 { margin-bottom: 30px }
@@ -215,3 +245,4 @@ address { font-style: normal; }
 .tm-bgcolor-2 { background-color: #38CCCC; }
 .tm-bgcolor-3 { background-color: #99CCCC; }
 .tm-border-rounded { border-radius: 15px; }
+
